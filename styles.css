@@ -77,3 +77,22 @@ h4{
   color:#e6b729;
   font-size: 3rem;
 }
+
+.city{
+  font-family: 'Acme',cursive;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.d-block{
+  border-radius: 1rem;
+}
+
+.btn-group-vertical .btn, .btn-group-vertical .btn-group{
+  width: 300px;
+}
+
+#error-circle{
+  color: #84100e;
+  font-size: 3rem;
+}

@@ -14,98 +14,127 @@
   </head>
   <body>
 
-    <!-- Navbar -->
+  <!-- Navbar -->
 
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark bd-navbar">
-          <a class="navbar-brand" href="index.html"><img class="nav-logo" src="suitcases.png" alt="">Grasp Jalisco</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="tours.html"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbspTours</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="dates.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbspSchedule</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbspContact us</a>
-              </li>
-            </ul>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark bd-navbar">
+        <a class="navbar-brand" href="index.html"><img class="nav-logo" src="suitcases.png" alt="">Grasp Jalisco</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="tours.html"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbspTours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dates.html"><i class="fa fa-calendar" aria-hidden="true"></i>&nbspSchedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"><i class="fa fa-comments" aria-hidden="true"></i>&nbspContact us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Contact us-->
+
+      <div class="container">
+        <br><h1 class="grasp-jalisco">Contact us...</h1>
+        <hr class=my-4>
+
+      <!-- Warning -->
+
+        <div class="row">
+          <div class="col-md-2 text-center">
+            <i id="warning" class="fa fa-exclamation-triangle" aria-hidden="true"></i>
           </div>
-        </nav>
+          <div class="col-md-10">
+            <p>We are currently experiencing some technical difficulties; therefore, the "Send" botton in the email section below is disabled.<br><strong>But don't fret!</strong> You can always give us a call and we will get you going <i class="fa fa-smile-o" aria-hidden="true"></i></p>
+          </div>
+        </div>
+        <hr class=my-2>
 
-<!-- contact -->
-<div class="container">
-<br>
-<h1 class="grasp-jalisco">Contact us...</h1>
-<hr class=my-4>
-<div class="row">
-  <div class="col-md-2 text-center">
-    <i id="warning" class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-  </div>
-  <div class="col-md-10">
-    <p>We are currently experiencing some technical difficulties; therefore, the "Send" botton in the email section below is disabled.<br><strong>But don't fret!</strong> You can always give us a call and we will get you going <i class="fa fa-smile-o" aria-hidden="true"></i></p>
-  </div>
-</div>
-<hr class=my-4>
-<!-- <br> -->
-<div class="row">
-  <div class="col-md-2 text-center">
-    <h1 class="grasp-jalisco">...by phone&nbsp&nbsp<i class="fa fa-phone" aria-hidden="true"></i></h1>
-  </div>
-  <div class="col-md-2">
-    <p><em>From the US:</em><br><em>From Mexico:</em></p>
-  </div>
-  <div class="col-md-8">
-    <p>+1-847-123-4567<br>+52-33-1234-5678</p>
-  </div>
-</div>
-<hr class=my-2>
+      <!-- By phone -->
 
-<form>
-  <div class="form-row">
-      <div class="form-group col-md-6">
-        <label for="exampleFormControlInput1">First name</label>
-        <input type="text" class="form-control" placeholder="First name">
+        <br>
+        <div class="row">
+          <div class="col-md-2">
+            <h1 class="grasp-jalisco">...by phone&nbsp&nbsp<i class="fa fa-phone" aria-hidden="true"></i></h1>
+          </div>
+          <div class="col-md-2">
+            <p><em>From the US:</em><br><em>From Mexico:</em></p>
+          </div>
+          <div class="col-md-8">
+            <p>+1-847-123-4567<br>+52-33-1234-5678</p>
+          </div>
+        </div>
+        <hr class=my-2>
+
+      <!-- By email -->
+
+        <br><h1 class="grasp-jalisco">...by email&nbsp&nbsp<i class="fa fa-envelope-o" aria-hidden="true"></i></h1><br>
+        <form>
+          <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="exampleFormControlInput1">First name:</label>
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleFormControlInput1">Last name:</label>
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+          </div>
+          <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="exampleFormControlInput1">Email address:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleFormControlInput1">When will you arrive in Guadalajara?</label>
+                <input type="date" class="form-control">
+              </div>
+          </div>
+          <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="exampleFormControlSelect2">In which tour(s) are you interested? (Select all that apply)</label>
+                <select multiple class="form-control" id="exampleFormControlSelect2">
+                  <option>Guadalajara</option>
+                  <option>Tlaquepaque</option>
+                  <option>Puerto Vallarta</option>
+                  <option>Tequila</option>
+                  <option>Chapala</option>
+                  <option>Tlapalpa</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="exampleFormControlSelect1">For how many people are you booking?</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Comments:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your message here..."></textarea>
+            </div>
+        </form>
+        <div class="row">
+          <div class="col text-right">
+            <button type="button" class="btn btn-info" disabled>Send&nbsp&nbsp<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <p>&nbsp</p>
       </div>
-      <div class="form-group col-md-6">
-        <label for="exampleFormControlInput1">Last name</label>
-        <input type="text" class="form-control" placeholder="Last name">
-      </div>
+
+          <!-- Closing message -->
+              <div id="closing">
+                <p id="closing-text" class="text-center"> <br><em>Arriba... Abajo... Al centro... ¡Pa'dentro!</em><br><br><i id="thumbs-up" class="fa fa-thumbs-up" aria-hidden="true"></i><br>&nbsp</p>
+              </div>
     </div>
-
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    <input type="datetime-local" id="time">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Example select</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect2">Example multiple select</label>
-    <select multiple class="form-control" id="exampleFormControlSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-</form>
-</div>
   </body>
 </html>
