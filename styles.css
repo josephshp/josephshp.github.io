@@ -72,3 +72,8 @@ h4{
   font-family: 'Acme',cursive;
   color:#1e5155;
 }
+
+#warning{
+  color:#e6b729;
+  font-size: 3rem;
+}
